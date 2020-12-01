@@ -12,16 +12,17 @@ ____
 
 ## 🚀Prerequisites
   * Python version 3 and above
-  * Install following modules OpenCv,Pandas,Numpy,datetime.
+  * Install following modules OpenCv,Pandas,Numpy,datetime,argparse and threading.
     - Use following command to install these
-         `pip install python-opencv pandas numpy datetime`
+         `pip install python-opencv pandas numpy datetime argparse threading`
     
 ## How to setup and run the project
   * clone the repo
-      - `git clone myrepolink`
+      - `git clone https://github.com/VivekTej99/Motion-Capturing-Camera-For-Suvilliance-Systems.git`
   * cd into the folder
-  * run the script
-    - `python project_cctv_vivek.py` it uses inbulit webcam of machine
+      - `cd Motion-Capturing-Camera-For-Suvilliance-Systems`
+  * Run the script
+    - `python project_cctv_vivek.py` it uses inbulit webcam of machine.
     - `python project_cctv_vivek.py -u {url}` (url is like ip_webcam url {http://192.168.121.1:8080/shot.jpg} ) it uses external cameras.
    
 
