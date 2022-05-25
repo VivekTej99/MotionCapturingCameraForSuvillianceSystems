@@ -1,5 +1,6 @@
-""" Idea and Code By : Vivek Tej
-	CCTV recording when motion is captured """
+"""
+	CCTV recording when motion is captured 
+"""
 
 #Importing The Required Modules..
 
