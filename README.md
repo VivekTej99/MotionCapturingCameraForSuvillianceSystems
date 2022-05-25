@@ -26,3 +26,35 @@ ____
     - `python project_cctv_vivek.py -u {url}` (url is like ip_webcam url {http://192.168.121.1:8080/shot.jpg} ) it uses external cameras.
    
 
+## Requirements
+
+- Install Python(3.9 or above)
+    - Install it from [here](https://www.python.org/downloads/)
+    - Mac users ``` brew install python```
+    
+- Install Pipenv
+    - Dependency and env manager for python
+    - ``` brew install pipenv ```
+
+
+## Setup
+
+- Clone the repo
+
+- Change to project's main directory
+    ``` cd MotionCapturingCameraForSuvillianceSystems/```
+
+- Activate a virtual enviroinment
+    ```pip env shell```
+
+- Install required dependencies
+    ``` pip install --ignore-pipfile```
+
+## Run
+- Know which arguments to use.
+    ``` python3 main_cctv.py --help ```
+- Run the project using laptop webcam.
+    ``` python3 main_cctv.py -w 0 ```
+- Run the project using external cam url.
+    ``` python3 main_cctv.py -u {url}``` 
+    - (url is like ip_webcam url {http://192.168.121.1:8080/shot.jpg} ) it    uses external cameras.
